@@ -28,9 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -70,6 +68,54 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
+html {
+    background-color: black;
+}
+body {
+    margin: 2.5% 2%;
+    background-color: snow;
+	line-height: 1;   
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 3.5%;
+}
+
+nav {
+    margin: 4% 10%;
+}
+
+.menu {
+     display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    /* margin: 5% 10%;
+    padding: 0 18%; */
+}
+
+a {
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 5%;
+    padding: 0  5%;
+}
+
+ 
+
+
+
+
+
+
+    
+
+
+
 
 .top-content {
     display: flex;
